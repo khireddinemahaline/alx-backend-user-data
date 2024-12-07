@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
+"""basic auth module"""
 
 import base64
 import binascii
 from api.v1.auth.auth import Auth
 from typing import TypeVar, Optional, Tuple
+
 
 class BasicAuth(Auth):
     """ BasicAuth class that handles HTTP Basic Authentication logic.

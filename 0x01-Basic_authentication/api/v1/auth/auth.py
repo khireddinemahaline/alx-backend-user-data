@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+"""Auth module for handling authentication logic in a Flask application."""
 
 from flask import request
 from typing import List, TypeVar, Optional
+
 
 class Auth:
     """Auth class for handling authentication logic in a Flask application."""
